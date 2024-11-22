@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(111, 166, 213, 0.817);
+}
+
+.header {
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.header_ul li:hover {
+    color: rgba(0, 130, 244, 1);
+    border-bottom: 1px solid rgba(0, 130, 244, 1);
+}
+
+.header_ul li {
+    padding-top: 33px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 33px;
+}
+
+.header_ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header_button {
+    width: 160px;
+    height: 50px;
+    background-color: rgba(0, 130, 244, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero {
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.hero2 {
+    margin-left: 230px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero_p {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(0, 128, 253, 1);
+}
+
+.hero1 {
+    margin-top: 80px;
+    position: relative;
+}
+
+.hero_text {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero_button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 130, 244, 1);
+    border: none;
+    border-radius: 10px;
+}
+
+.hero_button1 {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-left: 36px;
+}
+
+.hero_button1 img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 260px;
+    bottom: 127px;
+}
+
+.hero2 img {
+    width: 500px;
+    height: 500px;
+}
+
+.aboutus {
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+}
+
+.aboutus1 {
+    margin-right: 200px;
+}
+
+.aboutus1 img {
+    border-radius: 10px;
+}
+
+.aboutus2 {
+    margin-top: 100px;
+}
+
+.aboutus_p {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(0, 130, 244, 1);
+}
+
+.about_h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about_lorem {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about_button {
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0, 130, 244, 1);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.work {
+    margin-top: 220px;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.work_p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.work_main {
+    margin-top: 60px;
+    display: flex;
+}
+
+.work1 {
+    margin-right: 180px;
+}
+
+.work2 {
+    margin-right: 177px;
+}
+
+.work3 img {
+    margin-bottom: 60px;
+}
+
+.work2 img {
+    margin-bottom: 60px;
+}
+
+.work1 img {
+    margin-bottom: 60px;
+}
+
+.work_p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.work_p1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.work_p2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.work_lorem {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+
+.work_lorem1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.work_lorem2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.custom {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 80px;
+}
+
+.customer {
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 150px;
+}
+
+.main_review {
+    display: flex;
+}
+
+.review_b {
+    width: 60px;
+    height: 250px;
+    background-color: rgba(0, 130, 244, 1);
+    border: none;
+    border-radius: 15px 0 0 15px;
+}
+
+.review {
+    width: 380px;
+    height: 290px;
+    display: flex;
+}
+
+.review1 {
+    width: 380px;
+    height: 290px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.review2 {
+    width: 380px;
+    height: 290px;
+    display: flex;
+}
+
+.info {
+
+    margin-top: 30px;
+    width: 200px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.info1 {
+
+    margin-top: 30px;
+    width: 200px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.info2 {
+
+    margin-top: 30px;
+    width: 200px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.row {
+    margin-left: 60px;
+    position: relative;
+}
+
+.row1 {
+    margin-left: 60px;
+    position: relative;
+}
+
+.row2 {
+    margin-left: 60px;
+    position: relative;
+}
+
+.name {
+    font-size: 20px;
+    font-family: 400;
+}
+
+.place {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 25px;
+    color: grey;
+}
+
+.photo {
+    position: absolute;
+    bottom: 140px;
+    right: 230px
+}
+
+.photo1 {
+    position: absolute;
+    bottom: 140px;
+    right: 230px
+}
+
+.photo2 {
+    position: absolute;
+    bottom: 140px;
+    right: 230px
+}
+
+.new {
+    background-color: rgba(232, 236, 255, 0.3);
+    height: 340px;
+}
+
+.news {
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 180px;
+    position: relative;
+}
+
+.news_p {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(5, 138, 255, 1);
+    padding-top: 75px;
+    text-align: center;
+}
+
+.news_p1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.email {
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+}
+
+input {
+    width: 490px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 70px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(5, 138, 255, 1);
+    border-radius: 10px;
+}
+
+.send {
+    height: 52px;
+    width: 102px;
+    border-radius: 10px;
+    background-color: rgba(0, 130, 244, 1);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 390px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email img {
+    position: absolute;
+    top: 25px;
+    left: 390px;
+}
+
+.footer {
+    margin-left: 230px;
+    margin-right: 230px;
+    height: 200px;
+    display: flex;
+    gap: 150px;
+    text-align: center;
+}
+
+.footul {
+    width: 200px;
+    list-style: none;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-align: start;
+}
+
+.footul1 {
+    width: 200px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-top: 60px;
+    text-align: start;
+}
+
+.footul2 {
+    width: 200px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-top: 60px;
+    text-align: start;
+}
+
+.footul3 {
+    width: 200px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-top: 60px;
+    text-align: start;
+}
+
+.footul li {
+    padding-bottom: 15px;
+}
+
+.footul1 li {
+    padding-bottom: 15px;
+}
+
+.footul2 li {
+    padding-bottom: 15px;
+}
+
+.footul3 li {
+    padding-bottom: 15px;
+}
+
+.media {
+    margin-top: 100px;
+    background: linear-gradient(rgba(5, 138, 255, 1) 50%, rgba(57, 55, 206, 0.87) 100%);
+    height: 120px;
+    width: 1690px;
+}
+
+.media1 {
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    position: relative;
+}
+
+.media1 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 250px;
+}
+
+i {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding-right: 20px;
+}
+
+.media1 button {
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 31px;
+    right: 50px;
+}
